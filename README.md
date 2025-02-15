@@ -6,11 +6,13 @@ This project is a regex-based data extraction tool that extracts specific data t
 - 🌐 URLs
 - 📞 Phone numbers
 - 💲 Currency amounts
+- 🕒 Time in 12-hour and 24-hour formats
 
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
-Ensure you have  Node.js installed on your system.
+- Ensure you have  Node.js installed on your system.
+- Git installed
 
 ### Clone the Repository
 ```sh
@@ -41,9 +43,13 @@ Currency Amounts: ['$1,234.56']
 
 ## 🔍 Edge-case Handling
 This project accounts for:
-- Various email and phone number formats
-- URLs with/without `www.`
-- Currency amounts with/without commas
+- Supports different phone number formats (e.g., (123) 456-7890, 123.456.7890, international numbers).
+
+- Handles subdomains in emails and URLs.
+
+- Extracts currency with and without commas.
+
+- Recognizes different time formats (12-hour and 24-hour formats).
 
 ## 🚀 Contributors
 - Tedla Tesfaye Godebo
