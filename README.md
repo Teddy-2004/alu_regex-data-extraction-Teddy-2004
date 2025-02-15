@@ -1,0 +1,2 @@
+Regex Data Extraction | Onboarding Hackaton
+This task challenges one to leverage the power of regular expressions to build a data extraction module. Prologue - As a newly minted Junior Full Stack Developer fresh out of a three-year program, you've landed a short-term gig to develop a web application for a private organization. Your role involves designing an API that aggregates data from across the web and displays relevant information based on user requests.
